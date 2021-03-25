@@ -4,4 +4,5 @@ FROM splunk/splunk:latest
 #sudo chmod -R g=u /opt/container_artifact /opt/splunk/etc
 
 #USER 1001 
-USER ansible
+USER 999
+#user 999=ansible
